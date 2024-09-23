@@ -114,31 +114,37 @@
       "name": "Full Stack Development",
       "level": "Advanced",
       "keywords": [
-        "JavaScript",
-        "TypeScript",
-        "Node.js",
-        "Next.js",
+        "AWS",
+        "CSS3",
+        "Django",
+        "Docker",
         "Express",
+        "Flask",
+        "Git",
+        "HTML5",
+        "JavaScript",
+        "jQuery",
+        "Linux",
+        "MongoDB",
+        "MySQL",
+        "Next.js",
+        "Nginx",
+        "Node.js",
         "PHP",
+        "PostgreSQL",
         "Python",
-        "HTML",
-        "CSS"
+        "React",
+        "SQLite",
+        "TypeScript",
+        "WordPress",
+        "WireGuard",
+        "Google Cloud"
       ]
     },
     {
-      "name": "Backend Development",
+      "name": "Shopify app development",
       "level": "Advanced",
-      "keywords": ["Node.js", "Nest.js", "MongoDB", "Docker", "Google Cloud"]
-    },
-    {
-      "name": "Chatbot Development",
-      "level": "Advanced",
-      "keywords": ["JavaScript", "n8n", "WebHooks", "Google APIs"]
-    },
-    {
-      "name": "Linux System Administration",
-      "level": "Intermediate",
-      "keywords": ["Linux", "System Administration"]
+      "keywords": ["Shopify"]
     }
   ],
   "languages": [
@@ -155,7 +161,19 @@
   "references": [],
   "projects": [
     {
-      "name": "Software Engineering",
+      "name": "Self-hosted website",
+      "startDate": "2024",
+      "endDate": "2024",
+      "description": "Set up and managed a personal website hosted on a private server."
+    },
+    {
+      "name": "Distributed Blockchain program",
+      "startDate": "2023",
+      "endDate": "2023",
+      "description": "Created a distributed system utilizing blockchain technology."
+    },
+    {
+      "name": "Youtube like video server",
       "startDate": "2021",
       "endDate": "2021",
       "description": "Developed a video server with Django and ffmpeg."
@@ -167,7 +185,7 @@
       "description": "Modelled multiple CNNs to restore text in photos."
     },
     {
-      "name": "Advanced Data Structures",
+      "name": "R-tree visualization",
       "startDate": "2021",
       "endDate": "2021",
       "description": "Developed an RTree to index multidimensional data points."
