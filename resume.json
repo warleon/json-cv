@@ -145,6 +145,20 @@
       "name": "Shopify app development",
       "level": "Advanced",
       "keywords": ["Shopify"]
+    },
+    {
+      "name": "Low-Level Programming and Networking",
+      "level": "Advanced",
+      "keywords": [
+        "C++",
+        "Sockets",
+        "TCP/IP",
+        "Network Protocols",
+        "Multithreading",
+        "Concurrency Control",
+        "Memory Management",
+        "Packet Processing"
+      ]
     }
   ],
   "languages": [
