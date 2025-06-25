@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pdf": "node index.mjs",
-    "html": "resumed render"
+    "build": "node index.mjs"
   },
   "author": "",
   "license": "ISC",

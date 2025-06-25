@@ -24,6 +24,18 @@
   },
   "work": [
     {
+      "name": "APU Tech",
+      "position": "Software Engineer",
+      "url": "https://apu-tech.com",
+      "startDate": "2025",
+      "endDate": "now",
+      "summary": "Developed and maintained a mobile application. Also maintained a full stack web application.",
+      "highlights": [
+        "Developed and maintained a mobile application that increased client acquisition by 20%.",
+        "Integrated the app with the company's CRM and existing systems."
+      ]
+    },
+    {
       "name": "Balto SAS",
       "position": "Backend Developer",
       "url": "https://balto.fr",
