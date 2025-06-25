@@ -1,0 +1,254 @@
+{
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "Data Scientist",
+    "image": "",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "https://warleon.com",
+    "summary": "Experienced Data Scientist with expertise in machine learning, AI model development, and advanced analytics. Proven track record in developing automated solutions, implementing AI systems, and working with large-scale data processing.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Balto SAS",
+      "position": "Data Analytics Developer",
+      "url": "https://balto.fr",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Designed and developed data-driven internal tools and automated analytics solutions for operational optimization.",
+      "highlights": [
+        "Developed 10+ data analytics tools using Python and machine learning algorithms",
+        "Automated operations department workflows, reducing manual tasks by 60%",
+        "Implemented predictive models for operational forecasting and optimization",
+        "Collaborated with cross-functional teams to deliver data-driven insights"
+      ]
+    },
+    {
+      "name": "Mantra Chat",
+      "position": "AI Chatbot Developer & Data Analyst",
+      "url": "https://mantra.chat",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Developed AI-powered chatbots and analyzed user interaction data for optimization.",
+      "highlights": [
+        "Built 15+ AI chatbots serving 15,000+ users using NLP and machine learning",
+        "Analyzed user interaction patterns and conversation data to improve chatbot performance",
+        "Implemented sentiment analysis and user behavior prediction models",
+        "Reduced customer support workload through intelligent automation"
+      ]
+    },
+    {
+      "name": "Freelancer",
+      "position": "Backend Data Engineer",
+      "url": "",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Developed data processing backend systems with analytics capabilities.",
+      "highlights": [
+        "Built scalable data processing backend using Python, TypeScript, and MongoDB",
+        "Implemented data analytics pipeline for e-commerce insights",
+        "Designed database optimization strategies for large-scale data processing"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Data Systems Developer",
+      "url": "",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Maintained and optimized data-intensive web applications serving large user bases.",
+      "highlights": [
+        "Managed data systems serving 1000+ daily users",
+        "Optimized data processing algorithms, improving performance by 40%",
+        "Implemented data validation and quality assurance systems",
+        "Delivered weekly data-driven feature updates"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC",
+      "url": "https://utec.edu.pe",
+      "area": "Computer Science with Data Science Specialization",
+      "studyType": "Bachelor",
+      "startDate": "2019",
+      "endDate": "2024",
+      "score": "",
+      "courses": [
+        "Artificial Intelligence",
+        "Advanced Data Structures",
+        "Machine Learning Algorithms",
+        "Statistical Analysis",
+        "Database Systems",
+        "Computer Networks",
+        "Data Mining and Analytics"
+      ],
+      "highlights": [
+        "Specialized coursework in AI and machine learning applications",
+        "Invited to programming competition for outstanding performance in data analysis project"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third place winner, Hackathon Movistar - Data Analytics Track",
+      "date": "2020",
+      "awarder": "Movistar",
+      "summary": "Developed an advanced web scraper with data analytics capabilities for market insights."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Data Science & Machine Learning",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Deep Learning",
+        "Statistical Analysis",
+        "Data Mining",
+        "Predictive Modeling",
+        "Natural Language Processing",
+        "Computer Vision"
+      ]
+    },
+    {
+      "name": "Big Data & Cloud Analytics",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "Google Cloud",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Data Pipelines",
+        "ETL Processes",
+        "Distributed Computing"
+      ]
+    },
+    {
+      "name": "Data Visualization & Analytics Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Tableau",
+        "Power BI",
+        "Jupyter Notebooks",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "Programming & Development",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "R",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "Git",
+        "Linux",
+        "APIs",
+        "Web Scraping"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+        "Machine Learning",
+        "Deep Learning",
+        "AI Research"
+      ]
+    },
+    {
+      "name": "Data Analytics",
+      "keywords": [
+        "Big Data",
+        "Predictive Analytics",
+        "Business Intelligence"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "CNN Text Restoration AI Model",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Developed multiple Convolutional Neural Networks to restore and enhance text in photographs using deep learning techniques.",
+      "highlights": [
+        "Achieved 85% accuracy in text restoration tasks",
+        "Implemented advanced computer vision algorithms"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Distributed Blockchain Analytics System",
+      "startDate": "2023",
+      "endDate": "2023",
+      "description": "Created a distributed system utilizing blockchain technology with integrated analytics capabilities for transaction pattern analysis.",
+      "highlights": [
+        "Implemented real-time data processing for blockchain transactions",
+        "Built predictive models for network behavior analysis"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Video Analytics Server",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Developed a video processing server with built-in analytics using Django and FFmpeg for content analysis and user behavior tracking.",
+      "highlights": [
+        "Processed 1000+ hours of video content",
+        "Implemented user engagement analytics"
+      ],
+      "url": ""
+    },
+    {
+      "name": "R-tree Spatial Data Analytics",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Developed an optimized R-tree implementation for indexing and analyzing multidimensional spatial data with visualization capabilities.",
+      "highlights": [
+        "Optimized spatial queries for large datasets",
+        "Built interactive data visualization interface"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": { "theme": "jsonresume-theme-onepage-plus" }
+}
