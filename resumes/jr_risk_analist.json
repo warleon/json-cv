@@ -1,0 +1,256 @@
+{
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "Analista Jr Seguimiento de Portafolio de Riesgos",
+    "image": "",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "https://warleon.com",
+    "summary": "Analista de datos con especialización en ciencia de datos y experiencia en procesamiento de grandes volúmenes de información. Interesado en aplicar técnicas de analítica avanzada para el seguimiento y gestión de riesgos crediticios. Experiencia en desarrollo de modelos predictivos, análisis estadístico y manejo de bases de datos para la toma de decisiones basada en datos.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Balto SAS",
+      "position": "Analista de Datos y Riesgos",
+      "url": "https://balto.fr",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Desarrollé herramientas de análisis de datos y sistemas de monitoreo para el equipo de operaciones, enfocándome en la identificación y mitigación de riesgos operacionales.",
+      "highlights": [
+        "Implementé modelos predictivos para identificar patrones de riesgo en operaciones",
+        "Automaticé procesos de análisis de datos para mejorar la eficiencia del departamento",
+        "Desarrollé dashboards para monitoreo en tiempo real de indicadores clave de riesgo",
+        "Creé reportes automáticos de análisis de riesgo usando Python y SQL"
+      ]
+    },
+    {
+      "name": "Mantra Chat",
+      "position": "Analista de Datos y Desarrollador de IA",
+      "url": "https://mantra.chat",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Analicé patrones de comportamiento de usuarios y desarrollé modelos de scoring para evaluar riesgo de abandono y engagement.",
+      "highlights": [
+        "Implementé análisis de sentiment y scoring de riesgo de abandono de usuarios",
+        "Desarrollé modelos de machine learning para predecir comportamientos de riesgo",
+        "Creé matrices de transición para análisis de flujo de usuarios",
+        "Reduje riesgos operacionales mediante automatización de procesos de análisis"
+      ]
+    },
+    {
+      "name": "Freelancer",
+      "position": "Ingeniero de Datos Backend",
+      "url": "",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Desarrollé sistemas de procesamiento de datos con capacidades de análisis de riesgo para e-commerce.",
+      "highlights": [
+        "Implementé sistemas de análisis de riesgo crediticio para transacciones e-commerce",
+        "Desarrollé pipelines de procesamiento de datos usando Python y MongoDB",
+        "Creé indicadores de gestión para monitoreo de riesgos transaccionales",
+        "Implementé validaciones de datos y controles de calidad de información"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Desarrollador de Sistemas de Datos",
+      "url": "",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Mantuve aplicaciones web con componentes de procesamiento de datos y análisis de riesgos operacionales.",
+      "highlights": [
+        "Implementé sistemas de validación de datos y controles de calidad",
+        "Optimicé workflows de procesamiento de datos para reducir riesgos operacionales",
+        "Desarrollé reportes automáticos de indicadores de performance",
+        "Contribuí a la mejora continua de procesos de análisis de datos"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC",
+      "url": "https://utec.edu.pe",
+      "area": "Ciencias de la Computación con Especialización en Ciencia de Datos",
+      "studyType": "Bachiller",
+      "startDate": "2019",
+      "endDate": "2024",
+      "score": "",
+      "courses": [
+        "Inteligencia Artificial",
+        "Estructuras de Datos",
+        "Machine Learning",
+        "Estadística",
+        "Sistemas de Bases de Datos",
+        "Análisis de Datos",
+        "Probabilidad y Estadística",
+        "Modelos Predictivos"
+      ],
+      "highlights": [
+        "Completé cursos especializados en IA y machine learning aplicado a análisis de riesgos",
+        "Participé en competencias de programación y análisis de datos"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Tercer lugar, Hackathon Movistar - Track de Análisis de Datos",
+      "date": "2020",
+      "awarder": "Movistar",
+      "summary": "Desarrollé un sistema de web scraping con capacidades de análisis de riesgo y scoring automático."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Análisis de Riesgos y Scoring",
+      "keywords": [
+        "Credit Scoring",
+        "Análisis de Riesgo Crediticio",
+        "Modelos Predictivos",
+        "Probabilidad de Default",
+        "Pérdida Esperada",
+        "Flow Rates",
+        "Matriz de Transición",
+        "Estadística Descriptiva",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Herramientas de Programación y Análisis",
+      "keywords": [
+        "Python",
+        "SQL",
+        "R",
+        "Machine Learning",
+        "Análisis Estadístico",
+        "Procesamiento de Datos",
+        "ETL",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "Bases de Datos y Visualización",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Tableau",
+        "Matplotlib",
+        "Jupyter Notebooks",
+        "Power BI",
+        "Dashboards",
+        "Reportería Automática"
+      ]
+    },
+    {
+      "name": "Herramientas de Oficina y Cloud",
+      "keywords": [
+        "Excel Avanzado",
+        "VBA",
+        "Power Query",
+        "AWS",
+        "Google Cloud",
+        "Docker",
+        "Git",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Análisis de Riesgos Financieros",
+      "keywords": [
+        "Credit Scoring",
+        "Análisis de Portafolios",
+        "Modelos de Riesgo"
+      ]
+    },
+    {
+      "name": "Ciencia de Datos Aplicada",
+      "keywords": [
+        "Machine Learning",
+        "Análisis Predictivo",
+        "Business Intelligence"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Sistema de Scoring Crediticio con Redes Neuronales",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Desarrollé un modelo de scoring crediticio utilizando técnicas de deep learning para evaluar probabilidad de default.",
+      "highlights": [
+        "Implementé modelos de riesgo crediticio con precisión del 85%",
+        "Utilizé técnicas de computer vision para análisis de documentos",
+        "Creé pipeline automatizado de validación de datos"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Sistema de Análisis de Riesgo de Transacciones Blockchain",
+      "startDate": "2023",
+      "endDate": "2023",
+      "description": "Creé un sistema para procesamiento y análisis de riesgo de transacciones blockchain con capacidades de detección de fraude.",
+      "highlights": [
+        "Implementé algoritmos de detección de patrones de riesgo",
+        "Desarrollé matriz de transición para análisis de flujos",
+        "Creé indicadores de gestión de riesgo en tiempo real"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Servidor de Análisis de Riesgo de Contenido",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Desarrollé un servidor de análisis de riesgo de contenido usando Django con capacidades de scoring automático.",
+      "highlights": [
+        "Implementé modelos de scoring de riesgo de contenido",
+        "Creé sistema de monitoreo y reportería automática",
+        "Desarrollé dashboards para seguimiento de indicadores"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Indexación de Datos Espaciales para Análisis de Riesgo",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Implementé estructura R-tree para indexación de datos espaciales aplicado a análisis de riesgo geográfico.",
+      "highlights": [
+        "Desarrollé sistema de indexación para análisis de riesgo geográfico",
+        "Creé interface de visualización de datos de riesgo por ubicación",
+        "Implementé algoritmos de clustering para segmentación de riesgo"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": { "theme": "jsonresume-theme-onepage-plus" }
+}
