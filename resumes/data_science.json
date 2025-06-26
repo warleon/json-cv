@@ -6,7 +6,7 @@
     "email": "anthony.aguilar.tech@gmail.com",
     "phone": "+51904204223",
     "url": "https://warleon.com",
-    "summary": "Experienced Data Scientist with expertise in machine learning, AI model development, and advanced analytics. Proven track record in developing automated solutions, implementing AI systems, and working with large-scale data processing.",
+    "summary": "Data Scientist with experience in machine learning and analytics. Interested in developing data solutions and working with data processing systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,12 +29,12 @@
       "url": "https://balto.fr",
       "startDate": "2024",
       "endDate": "2024",
-      "summary": "Designed and developed data-driven internal tools and automated analytics solutions for operational optimization.",
+      "summary": "Worked on internal data tools and analytics solutions for the operations team.",
       "highlights": [
-        "Developed 10+ data analytics tools using Python and machine learning algorithms",
-        "Automated operations department workflows, reducing manual tasks by 60%",
-        "Implemented predictive models for operational forecasting and optimization",
-        "Collaborated with cross-functional teams to deliver data-driven insights"
+        "Developed data analytics tools using Python and basic machine learning",
+        "Assisted with automation of some department workflows",
+        "Created simple predictive models for operational use",
+        "Worked with different teams to provide data insights"
       ]
     },
     {
@@ -43,12 +43,12 @@
       "url": "https://mantra.chat",
       "startDate": "2022",
       "endDate": "2023",
-      "summary": "Developed AI-powered chatbots and analyzed user interaction data for optimization.",
+      "summary": "Developed chatbots and analyzed user data for improvements.",
       "highlights": [
-        "Built 15+ AI chatbots serving 15,000+ users using NLP and machine learning",
-        "Analyzed user interaction patterns and conversation data to improve chatbot performance",
-        "Implemented sentiment analysis and user behavior prediction models",
-        "Reduced customer support workload through intelligent automation"
+        "Built several AI chatbots using basic NLP techniques",
+        "Analyzed user conversation data to understand usage patterns",
+        "Implemented basic sentiment analysis features",
+        "Helped reduce some customer support tasks through automation"
       ]
     },
     {
@@ -57,11 +57,11 @@
       "url": "",
       "startDate": "2022",
       "endDate": "2022",
-      "summary": "Developed data processing backend systems with analytics capabilities.",
+      "summary": "Developed backend systems with data processing capabilities.",
       "highlights": [
-        "Built scalable data processing backend using Python, TypeScript, and MongoDB",
-        "Implemented data analytics pipeline for e-commerce insights",
-        "Designed database optimization strategies for large-scale data processing"
+        "Built data processing backend using Python, TypeScript, and MongoDB",
+        "Implemented basic analytics features for e-commerce data",
+        "Worked on database organization for data processing"
       ]
     },
     {
@@ -70,12 +70,12 @@
       "url": "",
       "startDate": "2021",
       "endDate": "2021",
-      "summary": "Maintained and optimized data-intensive web applications serving large user bases.",
+      "summary": "Maintained web applications with data processing components.",
       "highlights": [
-        "Managed data systems serving 1000+ daily users",
-        "Optimized data processing algorithms, improving performance by 40%",
-        "Implemented data validation and quality assurance systems",
-        "Delivered weekly data-driven feature updates"
+        "Worked on data systems for regular user traffic",
+        "Helped optimize some data processing workflows",
+        "Implemented basic data validation systems",
+        "Contributed to regular feature updates"
       ]
     }
   ],
@@ -90,25 +90,25 @@
       "score": "",
       "courses": [
         "Artificial Intelligence",
-        "Advanced Data Structures",
-        "Machine Learning Algorithms",
-        "Statistical Analysis",
+        "Data Structures",
+        "Machine Learning",
+        "Statistics",
         "Database Systems",
         "Computer Networks",
-        "Data Mining and Analytics"
+        "Data Analysis"
       ],
       "highlights": [
-        "Specialized coursework in AI and machine learning applications",
-        "Invited to programming competition for outstanding performance in data analysis project"
+        "Completed coursework in AI and machine learning",
+        "Participated in programming competitions"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Third place winner, Hackathon Movistar - Data Analytics Track",
+      "title": "Third place, Hackathon Movistar - Data Analytics Track",
       "date": "2020",
       "awarder": "Movistar",
-      "summary": "Developed an advanced web scraper with data analytics capabilities for market insights."
+      "summary": "Developed a web scraper with basic analytics features."
     }
   ],
   "certificates": [],
@@ -116,22 +116,19 @@
   "skills": [
     {
       "name": "Data Science & Machine Learning",
-      "level": "Advanced",
       "keywords": [
         "Python",
         "SQL",
         "Machine Learning",
-        "Deep Learning",
         "Statistical Analysis",
         "Data Mining",
-        "Predictive Modeling",
+        "Basic Modeling",
         "Natural Language Processing",
         "Computer Vision"
       ]
     },
     {
-      "name": "Big Data & Cloud Analytics",
-      "level": "Advanced",
+      "name": "Data Tools & Databases",
       "keywords": [
         "AWS",
         "Google Cloud",
@@ -139,32 +136,26 @@
         "PostgreSQL",
         "MySQL",
         "Docker",
-        "Data Pipelines",
-        "ETL Processes",
-        "Distributed Computing"
+        "Data Processing",
+        "ETL"
       ]
     },
     {
-      "name": "Data Visualization & Analytics Tools",
-      "level": "Intermediate",
+      "name": "Data Visualization",
       "keywords": [
         "Tableau",
-        "Power BI",
         "Jupyter Notebooks",
         "Pandas",
         "NumPy",
         "Scikit-learn",
-        "TensorFlow",
         "Matplotlib",
-        "Seaborn"
+        "Basic Visualization"
       ]
     },
     {
-      "name": "Programming & Development",
-      "level": "Advanced",
+      "name": "Programming",
       "keywords": [
         "Python",
-        "R",
         "SQL",
         "JavaScript",
         "TypeScript",
@@ -190,62 +181,60 @@
       "name": "Artificial Intelligence",
       "keywords": [
         "Machine Learning",
-        "Deep Learning",
-        "AI Research"
+        "AI Applications"
       ]
     },
     {
       "name": "Data Analytics",
       "keywords": [
-        "Big Data",
-        "Predictive Analytics",
-        "Business Intelligence"
+        "Data Processing",
+        "Business Analytics"
       ]
     }
   ],
   "references": [],
   "projects": [
     {
-      "name": "CNN Text Restoration AI Model",
+      "name": "Text Restoration Neural Network",
       "startDate": "2021",
       "endDate": "2021",
-      "description": "Developed multiple Convolutional Neural Networks to restore and enhance text in photographs using deep learning techniques.",
+      "description": "Developed a neural network to restore text in photographs using basic deep learning techniques.",
       "highlights": [
-        "Achieved 85% accuracy in text restoration tasks",
-        "Implemented advanced computer vision algorithms"
+        "Implemented basic text restoration functionality",
+        "Used computer vision libraries"
       ],
       "url": ""
     },
     {
-      "name": "Distributed Blockchain Analytics System",
+      "name": "Blockchain Data Processing System",
       "startDate": "2023",
       "endDate": "2023",
-      "description": "Created a distributed system utilizing blockchain technology with integrated analytics capabilities for transaction pattern analysis.",
+      "description": "Created a system for processing blockchain data with basic analytics features.",
       "highlights": [
-        "Implemented real-time data processing for blockchain transactions",
-        "Built predictive models for network behavior analysis"
+        "Implemented data processing for blockchain transactions",
+        "Built simple analysis tools"
       ],
       "url": ""
     },
     {
-      "name": "Video Analytics Server",
+      "name": "Video Processing Server",
       "startDate": "2021",
       "endDate": "2021",
-      "description": "Developed a video processing server with built-in analytics using Django and FFmpeg for content analysis and user behavior tracking.",
+      "description": "Developed a video processing server using Django and FFmpeg with basic analytics.",
       "highlights": [
-        "Processed 1000+ hours of video content",
-        "Implemented user engagement analytics"
+        "Processed video content for analysis",
+        "Implemented basic user tracking"
       ],
       "url": ""
     },
     {
-      "name": "R-tree Spatial Data Analytics",
+      "name": "Spatial Data Indexing",
       "startDate": "2021",
       "endDate": "2021",
-      "description": "Developed an optimized R-tree implementation for indexing and analyzing multidimensional spatial data with visualization capabilities.",
+      "description": "Implemented an R-tree structure for spatial data indexing with basic visualization.",
       "highlights": [
-        "Optimized spatial queries for large datasets",
-        "Built interactive data visualization interface"
+        "Built spatial data indexing system",
+        "Created simple data visualization interface"
       ],
       "url": ""
     }
