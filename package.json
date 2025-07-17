@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-onepage-plus": "^1.0.1",
     "puppeteer": "^23.3.0",
     "resumed": "^4.0.0"
