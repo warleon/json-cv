@@ -2,6 +2,8 @@ import { promises as fs } from "fs";
 import * as theme_onepage_plus from "jsonresume-theme-onepage-plus";
 import * as theme_even from "jsonresume-theme-even";
 import * as theme_elegant from "jsonresume-theme-elegant";
+import * as theme_html from "@warleon/jsonresume-theme-html";
+
 import puppeteer from "puppeteer";
 import { render } from "resumed";
 import path from "path";
@@ -27,7 +29,7 @@ for (const resumeFile of resumeFiles) {
     const resumePath = path.join(resumesDir, resumeFile);
     const resume = JSON.parse(await fs.readFile(resumePath, "utf-8"));
     
-    const theme = theme_elegant;
+    const theme = theme_html;
     // Render the resume to HTML
     const html = await render(resume, theme);
     
