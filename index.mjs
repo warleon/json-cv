@@ -29,7 +29,7 @@ for (const resumeFile of resumeFiles) {
     const resumePath = path.join(resumesDir, resumeFile);
     const resume = JSON.parse(await fs.readFile(resumePath, "utf-8"));
     
-    const theme = theme_html;
+    const theme = theme_onepage_plus;
     // Render the resume to HTML
     const html = await render(resume, theme);
     
