@@ -2,10 +2,10 @@
   "basics": {
     "name": "Anthony Aguilar Sanchez",
     "label": "Full Stack Software Engineer",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
     "email": "anthony.aguilar.tech@gmail.com",
     "phone": "+51904204223",
-    "url": "https://warleon.com",
+    "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/",
     "summary": "Experienced Full Stack Software Engineer with expertise in backend development, chatbot creation, and full stack web application development.",
     "location": {
       "address": "",
@@ -19,6 +19,11 @@
         "network": "GitHub",
         "username": "warleon",
         "url": "https://github.com/warleon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Anthony Aguilar",
+        "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/"
       }
     ]
   },
