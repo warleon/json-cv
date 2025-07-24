@@ -3,6 +3,7 @@ import * as theme_onepage_plus from "jsonresume-theme-onepage-plus";
 import * as theme_even from "jsonresume-theme-even";
 import * as theme_elegant from "jsonresume-theme-elegant";
 import * as theme_html from "@warleon/jsonresume-theme-html";
+import * as theme_compact from "@warleon/jsonresume-theme-compact"
 
 import puppeteer from "puppeteer";
 import { render } from "resumed";
@@ -29,7 +30,7 @@ for (const resumeFile of resumeFiles) {
     const resumePath = path.join(resumesDir, resumeFile);
     const resume = JSON.parse(await fs.readFile(resumePath, "utf-8"));
     
-    const theme = theme_onepage_plus;
+    const theme = theme_compact;
     // Render the resume to HTML
     const html = await render(resume, theme);
     
@@ -44,9 +45,10 @@ for (const resumeFile of resumeFiles) {
     await page.pdf({
       path: outputPath,
       printBackground: true,
-      width: "210mm", // Custom width equivalent to A4 width (8.27 inches)
-      height: `${await page.evaluate(() => document.body.scrollHeight)}px`, // Set height based on content
-      preferCSSPageSize: true, // Allow CSS to control the page size
+      //width: "210mm", // Custom width equivalent to A4 width (8.27 inches)
+      //height: `${await page.evaluate(() => document.body.scrollHeight)}px`, // Set height based on content
+      //preferCSSPageSize: true, // Allow CSS to control the page size
+      format: "A4",
     });
     
     await page.close();
