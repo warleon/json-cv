@@ -45,10 +45,10 @@ for (const resumeFile of resumeFiles) {
     await page.pdf({
       path: outputPath,
       printBackground: true,
-      //width: "210mm", // Custom width equivalent to A4 width (8.27 inches)
-      //height: `${await page.evaluate(() => document.body.scrollHeight)}px`, // Set height based on content
+      width: "210mm", // Custom width equivalent to A4 width (8.27 inches)
+      height: `${await page.evaluate(() => document.body.scrollHeight)}px`, // Set height based on content
       //preferCSSPageSize: true, // Allow CSS to control the page size
-      format: "A4",
+      //format: "A4",
     });
     
     await page.close();

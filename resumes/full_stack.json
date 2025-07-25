@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Anthony Aguilar Sanchez",
     "label": "Full Stack Software Engineer",
@@ -296,5 +297,10 @@
       "url": ""
     }
   ],
-  "meta": { "theme": "jsonresume-theme-onepage-plus" }
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-12-19T10:00:00",
+    "theme": "jsonresume-theme-onepage-plus"
+  }
 }
