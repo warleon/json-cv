@@ -6,7 +6,7 @@
     "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
     "email": "anthony.aguilar.tech@gmail.com",
     "phone": "+51904204223",
-    "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/",
+    "url": "",
     "summary": "Results-driven Full Stack Software Engineer with 4+ years of experience developing scalable web applications and mobile solutions. Demonstrated expertise in modern JavaScript frameworks, cloud deployment, and system architecture. Successfully delivered 15+ production applications, improved client acquisition by 20%, and reduced codebase complexity by 40%. Passionate about creating efficient, user-centric solutions that drive business growth.",
     "location": {
       "address": "",
@@ -242,17 +242,6 @@
   "references": [],
   "projects": [
     {
-      "name": "Self-hosted Website Infrastructure",
-      "startDate": "2024",
-      "endDate": "2024",
-      "description": "Designed and deployed personal website on private server with automated deployment pipeline and monitoring.",
-      "highlights": [
-        "Implemented CI/CD pipeline reducing deployment time by 80%",
-        "Achieved 99.9% uptime with automated monitoring and backup systems"
-      ],
-      "url": ""
-    },
-    {
       "name": "Distributed Blockchain System",
       "startDate": "2023",
       "endDate": "2023",
@@ -271,17 +260,6 @@
       "highlights": [
         "Implemented video transcoding pipeline processing 100+ video formats",
         "Built CDN-like distribution system reducing bandwidth usage by 40%"
-      ],
-      "url": ""
-    },
-    {
-      "name": "AI-Powered Text Restoration",
-      "startDate": "2021",
-      "endDate": "2021",
-      "description": "Developed convolutional neural networks for restoring text in damaged photos.",
-      "highlights": [
-        "Achieved 85% accuracy in text restoration from damaged images",
-        "Optimized model performance reducing inference time by 60%"
       ],
       "url": ""
     },
