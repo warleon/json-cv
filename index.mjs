@@ -49,6 +49,12 @@ for (const resumeFile of resumeFiles) {
       //height: `${await page.evaluate(() => document.body.scrollHeight)}px`, // Set height based on content
       //preferCSSPageSize: true, // Allow CSS to control the page size
       format: "A4",
+      margin: {
+        top: "5mm",
+        right: "5mm",
+        bottom: "5mm",
+        left: "5mm"
+      }
     });
     
     await page.close();

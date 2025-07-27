@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node index.mjs",
-    "dev": "nodemon --watch resumes --watch index.mjs --ext json --exec \"node index.mjs\""
+    "dev": "nodemon --watch resumes --watch index.mjs --ext json --exec \"node index.mjs\"",
+    "postinstall": "patch-package"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-onepage-plus": "^1.0.1",
     "nodemon": "^3.0.2",
+    "patch-package": "^8.0.0",
     "puppeteer": "^23.3.0",
     "resumed": "^4.0.0"
   }

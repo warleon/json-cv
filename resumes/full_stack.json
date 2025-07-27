@@ -33,8 +33,8 @@
       "name": "APU Tech",
       "position": "Software Engineer",
       "url": "https://apu-tech.com",
-      "startDate": "2025",
-      "endDate": "now",
+      "startDate": "2025-01-01",
+      "endDate": "",
       "summary": "Lead development of mobile and web applications, driving client acquisition and system integration.",
       "highlights": [
         "Developed and deployed a mobile application that increased client acquisition by 20% within 3 months",
@@ -47,8 +47,8 @@
       "name": "Balto SAS",
       "position": "Backend Developer",
       "url": "https://balto.fr",
-      "startDate": "2024",
-      "endDate": "2024",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
       "summary": "Architected and developed critical internal tools that streamlined company operations.",
       "highlights": [
         "Designed and developed 10+ internal tools that automated 80% of manual operational tasks",
@@ -61,8 +61,8 @@
       "name": "Mantra Chat",
       "position": "Chatbot Developer",
       "url": "https://mantra.chat",
-      "startDate": "2022",
-      "endDate": "2023",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
       "summary": "Built scalable chatbot solutions that enhanced customer engagement and support efficiency.",
       "highlights": [
         "Developed 15+ WhatsApp chatbots serving 1,000+ users each, achieving 95% customer satisfaction",
@@ -72,25 +72,11 @@
       ]
     },
     {
-      "name": "Freelancer",
-      "position": "Backend Developer",
-      "url": "",
-      "startDate": "2022",
-      "endDate": "2022",
-      "summary": "Built complete e-commerce backend system from concept to production deployment.",
-      "highlights": [
-        "Architected and developed full e-commerce backend from scratch in 2 months using TypeScript, Nest.js, MongoDB, and Docker",
-        "Implemented secure payment processing, inventory management, and order fulfillment systems",
-        "Designed RESTful APIs supporting 100+ concurrent users with sub-second response times",
-        "Deployed production-ready system with automated CI/CD pipeline and monitoring"
-      ]
-    },
-    {
       "name": "Movistar",
       "position": "Full Stack Developer",
       "url": "",
-      "startDate": "2021",
-      "endDate": "2021",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
       "summary": "Maintained and optimized enterprise web application serving 1,000+ daily users.",
       "highlights": [
         "Managed enterprise web application serving 1,000+ daily users with 99.5% uptime",
@@ -106,8 +92,8 @@
       "url": "https://utec.edu.pe",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2019",
-      "endDate": "2024",
+      "startDate": "2019-01-01",
+      "endDate": "2024-12-31",
       "score": "",
       "courses": [
         "Data Structures & Algorithms",
@@ -126,7 +112,7 @@
   "awards": [
     {
       "title": "Third Place Winner, Hackathon Movistar",
-      "date": "2020",
+      "date": "2020-10-01",
       "awarder": "Movistar",
       "summary": "Developed innovative web scraper solution that extracted and processed data 3x faster than existing methods."
     }
@@ -243,8 +229,8 @@
   "projects": [
     {
       "name": "Distributed Blockchain System",
-      "startDate": "2023",
-      "endDate": "2023",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
       "description": "Developed distributed blockchain system with consensus mechanisms and peer-to-peer networking.",
       "highlights": [
         "Implemented proof-of-work consensus algorithm",
@@ -254,8 +240,8 @@
     },
     {
       "name": "YouTube-like Video Streaming Server",
-      "startDate": "2021",
-      "endDate": "2021",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
       "description": "Created video streaming platform using Django and ffmpeg with adaptive bitrate streaming.",
       "highlights": [
         "Implemented video transcoding pipeline processing 100+ video formats",
@@ -265,8 +251,8 @@
     },
     {
       "name": "R-tree Spatial Indexing System",
-      "startDate": "2021",
-      "endDate": "2021",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
       "description": "Implemented R-tree data structure for efficient multidimensional spatial indexing.",
       "highlights": [
         "Reduced spatial query time by 70% compared to linear search",
@@ -278,7 +264,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2024-12-19T10:00:00",
+    "lastModified": "2024-12-19",
     "theme": "jsonresume-theme-onepage-plus"
   }
 }
