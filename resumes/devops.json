@@ -1,0 +1,283 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "Full Stack & DevOps Engineer",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "",
+    "summary": "Full Stack & DevOps Engineer with 5+ years of experience designing, developing, and deploying scalable software systems. Skilled in modern JavaScript frameworks, CI/CD pipelines, container orchestration, and cloud infrastructure automation. Proven record of delivering 15+ production-grade applications, reducing deployment time by 70%, and improving system reliability through observability and automation. Passionate about building efficient, maintainable systems that accelerate business growth.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Anthony Aguilar",
+        "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "APU Tech",
+      "position": "Software Engineer / DevOps Engineer",
+      "url": "https://apu-tech.com",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Lead development and deployment of mobile and web applications, integrating CI/CD pipelines and containerized infrastructure.",
+      "highlights": [
+        "Developed and deployed a mobile application that increased client acquisition by 20% within 3 months",
+        "Integrated mobile app with company CRM system, reducing manual data entry by 60%",
+        "Maintained full-stack web application serving 500+ daily active users with 99.9% uptime",
+        "Built and maintained CI/CD pipelines using GitHub Actions and Docker, reducing release time by 70%",
+        "Implemented infrastructure monitoring and automated scaling on Google Cloud using Terraform and Kubernetes"
+      ]
+    },
+    {
+      "name": "Balto SAS",
+      "position": "Backend Developer / DevOps Engineer",
+      "url": "https://balto.fr",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Architected and developed backend services and automated deployment workflows that improved operational efficiency.",
+      "highlights": [
+        "Designed and developed 10+ internal tools that automated 80% of manual operational tasks",
+        "Improved operations department workflow efficiency by 50% through process automation",
+        "Implemented Docker-based microservices deployment, improving scalability and maintainability",
+        "Led coordination between 4 developers and operations team to ensure tool usability and adoption",
+        "Reduced system response time by 40% through database optimization and caching strategies"
+      ]
+    },
+    {
+      "name": "Mantra Chat",
+      "position": "Chatbot Developer",
+      "url": "https://mantra.chat",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Built scalable chatbot solutions with automated deployment pipelines for high-availability systems.",
+      "highlights": [
+        "Developed 15+ WhatsApp chatbots serving 1,000+ users each, achieving 95% customer satisfaction",
+        "Reduced customer support response time by 70% through automated chatbot responses",
+        "Implemented natural language processing features that handled 80% of common customer inquiries",
+        "Deployed chatbots using Docker and Nginx reverse proxies, achieving near-zero downtime updates"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Full Stack Developer / Infrastructure Engineer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Maintained and optimized enterprise web applications and CI/CD workflows serving 1,000+ daily users.",
+      "highlights": [
+        "Managed enterprise web application serving 1,000+ daily users with 99.5% uptime",
+        "Refactored 10,000+ lines of legacy code, reducing complexity by 40% and improving maintainability",
+        "Implemented client-side validation reducing form submission errors by 60%",
+        "Established weekly release cycle and automated build pipeline, reducing deployment time by 50%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC University",
+      "url": "https://utec.edu.pe",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2019-01-01",
+      "endDate": "2024-12-31",
+      "score": "",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Software Engineering",
+        "Database Systems",
+        "Web Development",
+        "Artificial Intelligence",
+        "Distributed Systems",
+        "Cloud Computing"
+      ],
+      "highlights": [
+        "Invited to programming competition in first semester due to outstanding final project in Introduction to Computer Science",
+        "Completed advanced coursework in software architecture, distributed systems, and cloud computing",
+        "Participated in multiple hackathons and coding competitions"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Place Winner, Hackathon Movistar",
+      "date": "2020-10-01",
+      "awarder": "Movistar",
+      "summary": "Developed innovative web scraper solution that extracted and processed data 3x faster than existing methods."
+    }
+  ],
+  "skills": [
+    {
+      "name": "DevOps & Infrastructure",
+      "level": "Advanced",
+      "keywords": [
+        "CI/CD Pipelines",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Google Cloud Platform (GCP)",
+        "AWS",
+        "Nginx",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Monitoring & Logging",
+        "Load Balancing",
+        "System Reliability"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "Responsive Design",
+        "Progressive Web Apps"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Advanced",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Django",
+        "Flask",
+        "PHP",
+        "RESTful APIs",
+        "GraphQL",
+        "Microservices Architecture"
+      ]
+    },
+    {
+      "name": "Database & Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "Redis",
+        "AWS",
+        "Google Cloud",
+        "Docker",
+        "CI/CD Pipelines"
+      ]
+    },
+    {
+      "name": "System Programming",
+      "level": "Advanced",
+      "keywords": [
+        "C++",
+        "TCP/IP",
+        "Network Protocols",
+        "Multithreading",
+        "Concurrency Control",
+        "Memory Management",
+        "Packet Processing",
+        "Sockets Programming"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Linux",
+        "WireGuard",
+        "Version Control",
+        "Agile Methodologies",
+        "Test-Driven Development",
+        "Shell Scripting"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "DevOps Automation",
+        "Cloud Native Applications",
+        "Blockchain Technology",
+        "Artificial Intelligence",
+        "Distributed Systems",
+        "Open Source Projects"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Distributed Blockchain System",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Developed distributed blockchain system with consensus mechanisms and peer-to-peer networking.",
+      "highlights": [
+        "Implemented proof-of-work consensus algorithm",
+        "Built scalable peer-to-peer network supporting 100+ nodes",
+        "Automated deployment using Docker and CI/CD pipeline for node replication"
+      ],
+      "url": ""
+    },
+    {
+      "name": "YouTube-like Video Streaming Server",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "description": "Created video streaming platform using Django and ffmpeg with adaptive bitrate streaming.",
+      "highlights": [
+        "Implemented video transcoding pipeline processing 100+ video formats",
+        "Built CDN-like distribution system reducing bandwidth usage by 40%",
+        "Deployed on Kubernetes with automated scaling and load balancing"
+      ],
+      "url": ""
+    },
+    {
+      "name": "R-tree Spatial Indexing System",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "description": "Implemented R-tree data structure for efficient multidimensional spatial indexing.",
+      "highlights": [
+        "Reduced spatial query time by 70% compared to linear search",
+        "Handled 1M+ data points with sub-millisecond query performance"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-10-13",
+    "theme": "jsonresume-theme-onepage-plus"
+  }
+}
