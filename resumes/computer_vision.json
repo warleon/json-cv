@@ -1,0 +1,254 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "Computer Vision / Perception Software Engineer",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "",
+    "summary": "Software engineer with a systems and full-stack background, including prior experience in the agriculture sector, transitioning into computer vision and perception engineering. Comfortable with the full stack of a perception system: model training (PyTorch, OpenCV, YOLO), embedded/edge deployment (Raspberry Pi, Arduino, ESP32), and sensor-driven applications involving IMU data. Strong foundations in C++, algorithms, and spatial data structures (R-tree), with hands-on experience building IoT and sensor-reporting systems using MQTT pub/sub architectures. Eager to apply and deepen this experience training CV/ML models and fusing LiDAR, GNSS, and IMU data for real-world fruit counting and measurement problems.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Anthony Aguilar",
+        "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "APU Tech",
+      "position": "Software Engineer",
+      "url": "https://play.google.com/store/apps/details?id=com.apuprod.app&hl=es_PE",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "summary": "Developed mobile and web applications for an agriculture-sector company, including an offline-first field data collection app used to record phytosanitary (crop health) data in areas without internet access.",
+      "highlights": [
+        "Built an offline-first mobile application for field agronomists to collect phytosanitary data in rural areas with no internet access, increasing client acquisition by 20% within 3 months",
+        "Integrated the field data-collection app with the company CRM system, reducing manual data entry by 60%",
+        "Maintained full-stack web application serving 500+ daily active users with 99.9% uptime"
+      ]
+    },
+    {
+      "name": "Balto SAS",
+      "position": "Backend Developer",
+      "url": "https://balto.fr",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Architected an event-driven referrals system and internal tools using a microservices/pub-sub backend, building distributed-systems experience relevant to multi-sensor data pipelines.",
+      "highlights": [
+        "Designed and built a referrals system enabling customers to invite others and earn rewards, backed by microservices communicating through a pub/sub event architecture",
+        "Designed and developed 10+ internal tools that automated 80% of manual operational tasks",
+        "Reduced system response time by 40% through database optimization and caching strategies"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Maintained an enterprise web application used to track salesmen activity and detect fraud, involving large-scale operational data processing.",
+      "highlights": [
+        "Managed enterprise sales-tracking and fraud-detection application serving 1,000+ daily users with 99.5% uptime",
+        "Refactored 10,000+ lines of legacy code, reducing complexity by 40% and improving maintainability"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC University",
+      "url": "https://utec.edu.pe",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "score": "",
+      "courses": [
+        "Artificial Intelligence",
+        "Data Structures & Algorithms",
+        "Software Engineering",
+        "Database Systems",
+        "Web Development"
+      ],
+      "highlights": [
+        "Invited to programming competition in first semester due to outstanding final project in Introduction to Computer Science",
+        "Completed coursework in artificial intelligence and software architecture",
+        "Participated in multiple hackathons and coding competitions"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Place Winner, Hackathon Movistar",
+      "date": "2020-10-01",
+      "awarder": "Movistar",
+      "summary": "Developed innovative web scraper solution that extracted and processed data 3x faster than existing methods."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Computer Vision & Machine Learning",
+      "level": "Working Knowledge",
+      "keywords": [
+        "PyTorch",
+        "OpenCV",
+        "YOLO / Object Detection",
+        "Python",
+        "Artificial Intelligence Fundamentals"
+      ]
+    },
+    {
+      "name": "Sensors & Embedded Systems",
+      "level": "Intermediate",
+      "keywords": [
+        "IMU Data Processing",
+        "Raspberry Pi",
+        "Arduino",
+        "ESP32",
+        "Embedded C/C++",
+        "IoT System Design"
+      ]
+    },
+    {
+      "name": "Connectivity & Data Pipelines",
+      "level": "Advanced",
+      "keywords": [
+        "MQTT (Pub/Sub Architecture)",
+        "RESTful APIs",
+        "Real-time Reporting & Telemetry",
+        "TCP/IP",
+        "Network Protocols"
+      ]
+    },
+    {
+      "name": "Systems Programming",
+      "level": "Advanced",
+      "keywords": [
+        "C++",
+        "Multithreading",
+        "Concurrency Control",
+        "Memory Management",
+        "Data Structures (R-tree, Spatial Indexing)"
+      ]
+    },
+    {
+      "name": "Backend & Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "Node.js",
+        "Python (Django, Flask)",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "AWS",
+        "Google Cloud",
+        "CI/CD Pipelines"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Linux",
+        "Version Control",
+        "Agile Methodologies",
+        "Test-Driven Development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Robotics & Physical AI",
+      "keywords": ["Embedded Systems", "Edge Devices", "Sensor Integration"]
+    },
+    {
+      "name": "Computer Vision & Machine Learning",
+      "keywords": ["Model Training", "Object Detection"]
+    },
+    {
+      "name": "IoT & Electronics",
+      "keywords": ["Arduino", "ESP32", "Home Automation"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "IoT Chicken Egg Incubator with Remote Monitoring",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "description": "Built an embedded incubator control and monitoring system using Arduino and ESP32, with real-time telemetry and remote control via a mobile app.",
+      "highlights": [
+        "Designed a pub/sub telemetry pipeline using an MQTT broker to report system statistics in real time",
+        "Implemented closed-loop temperature regulation controllable remotely from a companion mobile app",
+        "Deployed and validated the embedded firmware on Arduino and ESP32 hardware end-to-end"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Phone-Based IMU Measuring App (Exploratory)",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "description": "Explored using a smartphone's IMU to measure physical distance/motion, investigating sensor integration and drift-correction challenges.",
+      "highlights": [
+        "Prototyped raw IMU data capture and integration for motion-based measurement",
+        "Identified the sensor fusion and numerical integration techniques needed to control drift, informing further study in this area"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Home Server on Raspberry Pi",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Deployed and maintained a self-hosted home server on Raspberry Pi, gaining hands-on Linux and embedded deployment experience.",
+      "highlights": [
+        "Configured and maintained services on constrained embedded hardware",
+        "Managed system administration, networking, and uptime on an ARM-based single-board computer"
+      ],
+      "url": ""
+    },
+    {
+      "name": "R-tree Spatial Indexing System",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "description": "Implemented R-tree data structure for efficient multidimensional spatial indexing, directly applicable to geospatial (GNSS) data queries.",
+      "highlights": [
+        "Reduced spatial query time by 70% compared to linear search",
+        "Handled 1M+ data points with sub-millisecond query performance"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-08-13",
+    "theme": "jsonresume-theme-onepage-plus"
+  }
+}
