@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@warleon/jsonresume-theme-compact": "^0.0.12",
+    "@warleon/jsonresume-theme-compact": "^0.0.13",
     "@warleon/jsonresume-theme-html": "^0.0.1",
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.23.0",

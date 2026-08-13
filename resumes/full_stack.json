@@ -7,7 +7,7 @@
     "email": "anthony.aguilar.tech@gmail.com",
     "phone": "+51904204223",
     "url": "",
-    "summary": "Results-driven Full Stack Software Engineer with 4+ years of experience developing scalable web applications and mobile solutions. Demonstrated expertise in modern JavaScript frameworks, cloud deployment, and system architecture. Successfully delivered 15+ production applications, improved client acquisition by 20%, and reduced codebase complexity by 40%. Passionate about creating efficient, user-centric solutions that drive business growth.",
+    "summary": "Results-driven Full Stack Software Engineer with 4+ years of experience developing scalable web applications and mobile solutions. Demonstrated expertise in modern JavaScript frameworks, cloud deployment, and system architecture. Successfully delivered production applications, improved client acquisition by 20%, and reduced codebase complexity by 40%. Passionate about creating efficient, user-centric solutions that drive business growth.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,9 +32,9 @@
     {
       "name": "APU Tech",
       "position": "Software Engineer",
-      "url": "https://apu-tech.com",
+      "url": "https://play.google.com/store/apps/details?id=com.apuprod.app&hl=es_PE",
       "startDate": "2025-01-01",
-      "endDate": "",
+      "endDate": "2025-12-31",
       "summary": "Lead development of mobile and web applications, driving client acquisition and system integration.",
       "highlights": [
         "Developed and deployed a mobile application that increased client acquisition by 20% within 3 months",
@@ -92,8 +92,8 @@
       "url": "https://utec.edu.pe",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2019-01-01",
-      "endDate": "2024-12-31",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
       "score": "",
       "courses": [
         "Data Structures & Algorithms",
@@ -172,7 +172,6 @@
         "Shopify App Development",
         "Mobile App Development",
         "Cross-platform Development",
-        "Payment Processing",
         "Inventory Management"
       ]
     },
@@ -185,9 +184,7 @@
         "Network Protocols",
         "Multithreading",
         "Concurrency Control",
-        "Memory Management",
-        "Packet Processing",
-        "Sockets Programming"
+        "Memory Management"
       ]
     },
     {
@@ -201,27 +198,6 @@
         "Version Control",
         "Agile Methodologies",
         "Test-Driven Development"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Conversational"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "Blockchain Technology",
-        "Artificial Intelligence",
-        "Distributed Systems",
-        "Open Source Projects"
       ]
     }
   ],
