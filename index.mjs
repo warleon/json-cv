@@ -32,7 +32,9 @@ console.log(`Found ${resumeFiles.length} resume files to process:`);
 resumeFiles.forEach(file => console.log(`  - ${file}`));
 
 // Launch browser once for all PDFs
-const browser = await puppeteer.launch();
+const browser = await puppeteer.launch(
+  process.env.CI ? { args: ["--no-sandbox", "--disable-setuid-sandbox"] } : {}
+);
 
 // Process each resume file
 for (const resumeFile of resumeFiles) {
