@@ -1,0 +1,253 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "Data Engineer",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "",
+    "summary": "Software engineer with a full-stack and backend-systems background, transitioning into data engineering. Experience building event-driven, pub/sub microservices, CRM/data integration pipelines, and large-scale operational data processing (fraud-tracking, offline-first sync). Practiced with AWS (EC2, S3, API Gateway, Lambda, load balancing/autoscaling) through a dedicated cloud computing course and personal project deployments, plus PySpark and SQL-based data processing from a big data course. Comfortable with Python at a strong working level and applies core machine learning concepts (train/test methodology, classification vs. regression, pretrained model deployment) in personal projects using PyTorch.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Anthony Aguilar",
+        "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "APU Tech",
+      "position": "Software Engineer",
+      "url": "https://play.google.com/store/apps/details?id=com.apuprod.app&hl=es_PE",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "summary": "Developed mobile and web applications for an agriculture-sector company, including an offline-first field data pipeline used to record phytosanitary (crop health) data in areas without internet access.",
+      "highlights": [
+        "Built an offline-first data collection pipeline for field agronomists, syncing phytosanitary data from rural areas with no internet access once connectivity was restored",
+        "Integrated the field data-collection pipeline with the company CRM system, reducing manual data entry by 60%",
+        "Processed and visualized collected field data into an executive dashboard, including per-parcel breakdowns and a field heatmap revealing cultivar health",
+        "Maintained a full-stack data platform serving 500+ daily active users with 99.9% uptime"
+      ]
+    },
+    {
+      "name": "Balto SAS",
+      "position": "Backend Developer",
+      "url": "https://balto.fr",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Architected an event-driven referrals system and internal data tools using a microservices/pub-sub backend.",
+      "highlights": [
+        "Designed and built a referrals system backed by microservices communicating through a pub/sub event architecture",
+        "Designed and developed 10+ internal data/reporting tools that automated 80% of manual operational tasks, tracking thousands of purchases and integrating with 3rd-party systems",
+        "Reduced system response time by 40% through database optimization and caching strategies"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Maintained an enterprise application used to track salesmen activity and detect fraud, involving large-scale operational data processing.",
+      "highlights": [
+        "Managed enterprise sales-tracking and fraud-detection data application serving 1,000+ daily users with 99.5% uptime",
+        "Refactored 10,000+ lines of legacy data-processing code, reducing complexity by 14% and improving maintainability"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC University",
+      "url": "https://utec.edu.pe",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "score": "",
+      "courses": [
+        "Cloud Computing (AWS)",
+        "Big Data (PySpark)",
+        "Machine Learning & Deep Learning",
+        "Data Structures & Algorithms",
+        "Database Systems"
+      ],
+      "highlights": [
+        "Cloud Computing course: designed and deployed a multi-tenant restaurant management platform on AWS (EC2 with load balancing and autoscaling, S3, DynamoDB, API Gateway, Lambda, WebSockets for real-time notifications), including geospatial delivery tracking and an ETL analytics pipeline processing 50M+ simulated records",
+        "Big Data course: used PySpark for data analysis and processing exercises",
+        "Participated in multiple hackathons and coding competitions"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Place Winner, Hackathon Movistar",
+      "date": "2020-10-01",
+      "awarder": "Movistar",
+      "summary": "Developed innovative web scraper solution that extracted and processed data 3x faster than existing methods."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Cloud & Infrastructure (AWS)",
+      "level": "Working Knowledge",
+      "keywords": [
+        "EC2 (Load Balancing & Autoscaling)",
+        "S3",
+        "DynamoDB",
+        "API Gateway",
+        "Lambda",
+        "WebSockets / Real-time Events",
+        "Multi-tenant Architecture"
+      ]
+    },
+    {
+      "name": "Data Engineering & Pipelines",
+      "level": "Working Knowledge",
+      "keywords": [
+        "PySpark",
+        "ETL / ELT Design",
+        "Event-Driven / Pub-Sub Architecture",
+        "Batch Processing (Queue-based)",
+        "Message Queues",
+        "Data Visualization & Dashboarding",
+        "Geospatial Data Processing",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Databases & Warehousing",
+      "level": "Advanced",
+      "keywords": [
+        "PostgreSQL",
+        "SQL",
+        "MongoDB",
+        "DynamoDB",
+        "Redis",
+        "Database Optimization & Caching",
+        "Multi-tenant Data Modeling"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Working Knowledge",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Train/Test Methodology",
+        "Classification vs. Regression",
+        "Pretrained Model Deployment",
+        "Statistical Distribution Modeling",
+        "Retrieval-Augmented Generation (RAG)"
+      ]
+    },
+    {
+      "name": "Systems & Architecture",
+      "level": "Advanced",
+      "keywords": [
+        "Microservices",
+        "Distributed Systems",
+        "RESTful APIs",
+        "WebSockets",
+        "Third-Party System Integration",
+        "CI/CD Pipelines"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Docker",
+        "Git",
+        "Linux",
+        "Agile Methodologies"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Multi-Tenant Restaurant Platform on AWS",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "description": "University cloud computing project: a multi-tenant restaurant management platform (simulating multiple locations, staff/client/delivery apps) deployed on AWS.",
+      "highlights": [
+        "Designed a multi-tenant database architecture on DynamoDB supporting independent restaurant locations",
+        "Deployed the application on EC2 behind a load balancer with autoscaling, served static/unstructured assets from S3",
+        "Built API Gateway endpoints and Lambda functions, using WebSockets for real-time order and delivery notifications across staff, client, and delivery-driver apps",
+        "Implemented geospatial delivery tracking and an ETL analytics pipeline generating business reports over 50M+ simulated records"
+      ],
+      "url": ""
+    },
+    {
+      "name": "RAG Discord Bot with Database Query Access",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Big Data course project: a retrieval-augmented generation system integrated with a Discord bot that answers questions by querying a business database under scoped, safe permissions.",
+      "highlights": [
+        "Built a RAG pipeline connecting an LLM to a live database to answer natural-language queries",
+        "Scoped database permissions to prevent unintended or harmful actions on business data",
+        "Used PySpark for data analysis as part of the course curriculum"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Linguaphile.app - Vocabulary Acquisition via YouTube",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "description": "Personal project (in progress) that collects and analyzes YouTube video transcriptions across languages to fit a word-frequency distribution model, then samples the minimal vocabulary needed to start acquiring a language through videos of personal interest.",
+      "highlights": [
+        "Collected and processed thousands of YouTube video transcriptions across multiple languages",
+        "Fit a statistical distribution model over word frequency per language",
+        "Implemented sampling from the fitted distribution to generate minimal-vocabulary learning sets",
+        "Deployed a working prototype at linguaphile.app"
+      ],
+      "url": "https://linguaphile.app"
+    },
+    {
+      "name": "Speech2Text Batch Translator",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Queue-based batch audio translation service allowing multiple users to upload and process files concurrently under limited compute resources, using OpenAI's pretrained Whisper models.",
+      "highlights": [
+        "Built the backend in Python, with a queue-based processing system to fairly schedule multi-user batch jobs on constrained hardware",
+        "Deployed pretrained Whisper models via PyTorch for speech-to-text transcription and translation inference",
+        "Containerized the full pipeline with Docker for reproducible deployment"
+      ],
+      "url": "https://github.com/warleon/speech2text"
+    },
+    {
+      "name": "R-tree Spatial Indexing System",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "description": "Advanced Data Structures course project: implemented R-tree data structure for efficient multidimensional spatial indexing.",
+      "highlights": [
+        "Reduced spatial query time by 70% compared to linear search",
+        "Handled 1M+ data points with sub-millisecond query performance"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-08-19",
+    "theme": "jsonresume-theme-onepage-plus"
+  }
+}

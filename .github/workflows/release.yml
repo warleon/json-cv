@@ -1,0 +1,78 @@
+name: Release Resume PDFs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine version bump
+        id: version
+        run: |
+          set -e
+
+          last_tag=$(git tag --list 'v[0-9]*.[0-9]*' --sort=-v:refname | head -n1 || true)
+
+          if [ -z "$last_tag" ]; then
+            echo "No previous release tag found. Starting at 1.0"
+            echo "new_version=1.0" >> "$GITHUB_OUTPUT"
+            echo "should_release=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          last_commit=$(git rev-list -n1 "$last_tag")
+
+          added_or_deleted=$(git diff --diff-filter=AD --name-only "$last_commit" HEAD -- resumes/ | wc -l)
+          modified=$(git diff --diff-filter=M --name-only "$last_commit" HEAD -- resumes/ | wc -l)
+
+          if [ "$added_or_deleted" -eq 0 ] && [ "$modified" -eq 0 ]; then
+            echo "No resume changes since $last_tag. Skipping release."
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          a=$(echo "$last_tag" | sed 's/^v//' | cut -d. -f1)
+          b=$(echo "$last_tag" | sed 's/^v//' | cut -d. -f2)
+
+          if [ "$added_or_deleted" -gt 0 ]; then
+            a=$((a + 1))
+            b=0
+          else
+            b=$((b + 1))
+          fi
+
+          echo "new_version=${a}.${b}" >> "$GITHUB_OUTPUT"
+          echo "should_release=true" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Node.js
+        if: steps.version.outputs.should_release == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        if: steps.version.outputs.should_release == 'true'
+        run: npm ci
+
+      - name: Build resume PDFs
+        if: steps.version.outputs.should_release == 'true'
+        run: npm run build
+
+      - name: Create release
+        if: steps.version.outputs.should_release == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.new_version }}
+          name: v${{ steps.version.outputs.new_version }}
+          files: output/*.pdf

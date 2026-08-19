@@ -12,8 +12,21 @@ import path from "path";
 // Get all JSON files from the resumes directory
 const resumesDir = "resumes";
 const outputDir = "output";
+
+// Optional CLI arg: name of a specific resume to build (with or without .json extension)
+const requestedResume = process.argv[2];
+
 const files = await fs.readdir(resumesDir);
-const resumeFiles = files.filter(file => path.extname(file) === '.json');
+let resumeFiles = files.filter(file => path.extname(file) === '.json');
+
+if (requestedResume) {
+  const requestedFile = requestedResume.endsWith('.json') ? requestedResume : `${requestedResume}.json`;
+  if (!resumeFiles.includes(requestedFile)) {
+    console.error(`✗ Resume not found: ${requestedFile}`);
+    process.exit(1);
+  }
+  resumeFiles = [requestedFile];
+}
 
 console.log(`Found ${resumeFiles.length} resume files to process:`);
 resumeFiles.forEach(file => console.log(`  - ${file}`));
