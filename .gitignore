@@ -1,3 +1,5 @@
 node_modules
 *.pdf
 *.html
+.mongo
+./certificates/private/

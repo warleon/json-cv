@@ -1,0 +1,235 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Anthony Aguilar Sanchez",
+    "label": "MLOps Platform Engineer",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQHkKfI2SbXosA/profile-displayphoto-crop_800_800/B4EZgfa3mnGwAI-/0/1752873794466?e=1755734400&v=beta&t=odbqptMuONXLi15WG1SzkN18eWqCiU2tv00kqtPSVc8",
+    "email": "anthony.aguilar.tech@gmail.com",
+    "phone": "+51904204223",
+    "url": "",
+    "summary": "MLOps Platform Engineer with 5+ years of software engineering experience building and operating production backend systems, data pipelines, and ML-driven applications. Currently owns the end-to-end ML pipeline for an automatic grape-counting system, from field data ingestion and sensor fusion through object-detection inference, alongside internal developer tooling, event-driven microservices, and RAG/LLM integrations. Builds daily with AI coding agents (Claude Code), reviewing and validating generated code rather than accepting it blindly.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "warleon",
+        "url": "https://github.com/warleon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Anthony Aguilar",
+        "url": "https://www.linkedin.com/in/anthony-aguilar-sanchez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Macanudo",
+      "position": "Software Engineer",
+      "url": "",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Owning the end-to-end ML pipeline for an automatic grape-counting system, from field data ingestion and sensor fusion through object-detection inference.",
+      "highlights": [
+        "Own the end-to-end ML pipeline for an automatic grape-counting system, from field data ingestion through YOLO-based object-detection inference",
+        "Built a multi-sensor fusion pipeline (camera, LiDAR, GNSS, IMU) to feed reliable, geolocated input into the detection pipeline under real field conditions"
+      ]
+    },
+    {
+      "name": "APU Tech",
+      "position": "Software Engineer",
+      "url": "https://play.google.com/store/apps/details?id=com.apuprod.app&hl=es_PE",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "summary": "Operated a production application and data pipeline for an agriculture-sector company, diagnosing and resolving issues directly in production.",
+      "highlights": [
+        "Maintained a production full-stack application serving 500+ daily active users with 99.9% uptime, diagnosing and resolving issues directly in production",
+        "Built and operated an offline-first data-collection pipeline for field agronomists, syncing data once connectivity was restored",
+        "Integrated the data pipeline with the company CRM system via APIs, reducing manual data entry by 60%"
+      ]
+    },
+    {
+      "name": "Balto SAS",
+      "position": "Backend Developer",
+      "url": "https://balto.fr",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Built internal developer tooling and event-driven backend systems that automated manual operational work.",
+      "highlights": [
+        "Designed and built 10+ internal developer tools and automations that eliminated 80% of manual operational tasks for the operations team",
+        "Built a referrals system backed by microservices communicating through a pub/sub event architecture",
+        "Reduced system response time by 40% through database optimization and caching strategies"
+      ]
+    },
+    {
+      "name": "Movistar",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Maintained an enterprise application used to track salesmen activity and detect fraud, involving large-scale operational data processing.",
+      "highlights": [
+        "Managed an enterprise sales-tracking and fraud-detection application serving 1,000+ daily users with 99.5% uptime, diagnosing production issues"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC University",
+      "url": "https://utec.edu.pe",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "score": "",
+      "courses": [
+        "Cloud Computing (AWS)",
+        "Big Data (PySpark)",
+        "Machine Learning & Deep Learning",
+        "Software Engineering",
+        "Data Structures & Algorithms"
+      ],
+      "highlights": [
+        "Participated in multiple hackathons and coding competitions"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Place Winner, Hackathon Movistar",
+      "date": "2020-10-01",
+      "awarder": "Movistar",
+      "summary": "Developed innovative web scraper solution that extracted and processed data 3x faster than existing methods."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Python & Software Engineering",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "API Design",
+        "Modularity & Dependency Management",
+        "Automated Testing",
+        "Debugging",
+        "Git",
+        "Code Review",
+        "CI/CD Pipelines"
+      ]
+    },
+    {
+      "name": "ML Platform & Pipelines",
+      "level": "Intermediate",
+      "keywords": [
+        "PyTorch",
+        "Model Inference & Serving",
+        "Pretrained Model Deployment",
+        "RAG / LLM Integration",
+        "ML Lifecycle (Training, Inference, Deployment, Monitoring)"
+      ]
+    },
+    {
+      "name": "Data Engineering & Streaming",
+      "level": "Working Knowledge",
+      "keywords": [
+        "PySpark",
+        "ETL / ELT Design",
+        "Event-Driven / Pub-Sub Architecture",
+        "Message Queues",
+        "Kafka",
+        "Databricks"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Working Knowledge",
+      "keywords": [
+        "AWS (EC2, S3, Lambda, API Gateway, Autoscaling)",
+        "Azure",
+        "Docker",
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "level": "Advanced",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "RESTful APIs",
+        "Microservices Architecture"
+      ]
+    },
+    {
+      "name": "AI-Assisted Engineering",
+      "level": "Intermediate",
+      "keywords": [
+        "AI Coding Agents (Claude Code)",
+        "Prompt-Driven Development Workflows",
+        "Reviewing & Validating AI-Generated Code"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Speech2Text Batch Translator",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Queue-based batch audio translation service serving pretrained ML models (Whisper) for speech-to-text inference under constrained compute, containerized for reproducible deployment.",
+      "highlights": [
+        "Deployed pretrained Whisper models via PyTorch for speech-to-text transcription and translation inference",
+        "Built a queue-based processing system to fairly schedule multi-user batch inference jobs on constrained hardware",
+        "Containerized the full inference pipeline with Docker for reproducible deployment"
+      ],
+      "url": "https://github.com/warleon/speech2text"
+    },
+    {
+      "name": "RAG Discord Bot with Database Query Access",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Retrieval-augmented generation system integrating an LLM with scoped, safe access to a live business database, exposed through a Discord bot interface.",
+      "highlights": [
+        "Built a RAG pipeline connecting an LLM to a live database to answer natural-language queries",
+        "Scoped database permissions to prevent unintended or harmful actions on business data",
+        "Used PySpark for the underlying data analysis as part of the pipeline"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Multi-Tenant Platform on AWS",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "description": "Cloud computing course project: a multi-tenant restaurant management platform deployed on AWS, including an ETL analytics pipeline.",
+      "highlights": [
+        "Designed a multi-tenant architecture on DynamoDB, deployed on EC2 behind an autoscaling load balancer, with API Gateway/Lambda endpoints and WebSocket notifications",
+        "Implemented an ETL analytics pipeline generating business reports over 50M+ simulated records"
+      ],
+      "url": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-11-26",
+    "theme": "jsonresume-theme-onepage-plus"
+  }
+}

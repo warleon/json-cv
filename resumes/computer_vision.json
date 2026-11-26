@@ -7,7 +7,7 @@
     "email": "anthony.aguilar.tech@gmail.com",
     "phone": "+51904204223",
     "url": "",
-    "summary": "Software engineer with a systems and full-stack background, including prior experience in the agriculture sector, transitioning into computer vision and perception engineering. Comfortable with the full stack of a perception system: model training (PyTorch, OpenCV, YOLO), embedded/edge deployment (Raspberry Pi, Arduino, ESP32), and sensor-driven applications involving IMU data. Strong foundations in C++, algorithms, and spatial data structures (R-tree), with hands-on experience building IoT and sensor-reporting systems using MQTT pub/sub architectures. Eager to apply and deepen this experience training CV/ML models and fusing LiDAR, GNSS, and IMU data for real-world fruit counting and measurement problems.",
+    "summary": "Computer Vision / Perception Software Engineer currently leading the development of an automatic grape-counting system at Macanudo, fusing camera, LiDAR, GNSS, and IMU data captured directly in the vineyard for real-world fruit counting and measurement. Comfortable with the full stack of a perception system: object detection and model training (PyTorch, OpenCV, YOLO), embedded/edge deployment (Raspberry Pi, Arduino, ESP32), and multi-sensor data pipelines. Strong foundations in C++, algorithms, and spatial data structures (R-tree), with hands-on experience building IoT and sensor-reporting systems using MQTT pub/sub architectures.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,6 +29,18 @@
     ]
   },
   "work": [
+    {
+      "name": "Macanudo",
+      "position": "Computer Vision Engineer",
+      "url": "",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Leading the end-to-end design and development of an automatic grape-counting system, fusing camera, LiDAR, GNSS, and IMU data captured directly in the vineyard to solve real-world fruit counting and measurement problems.",
+      "highlights": [
+        "Leading design and development of a grape-counting pipeline, applying YOLO-based object detection and OpenCV to video captured directly in the vineyard",
+        "Architected a multi-sensor fusion approach combining camera, LiDAR, GNSS, and IMU data to geolocate and count grape clusters under real field conditions"
+      ]
+    },
     {
       "name": "APU Tech",
       "position": "Software Engineer",
@@ -104,7 +116,7 @@
   "skills": [
     {
       "name": "Computer Vision & Machine Learning",
-      "level": "Working Knowledge",
+      "level": "Intermediate",
       "keywords": [
         "PyTorch",
         "OpenCV",
@@ -118,6 +130,9 @@
       "level": "Intermediate",
       "keywords": [
         "IMU Data Processing",
+        "GNSS/GPS Positioning",
+        "LiDAR Data Processing",
+        "Multi-Sensor Fusion",
         "Raspberry Pi",
         "Arduino",
         "ESP32",
@@ -223,17 +238,6 @@
       "url": ""
     },
     {
-      "name": "Home Server on Raspberry Pi",
-      "startDate": "2023-01-01",
-      "endDate": "2023-12-31",
-      "description": "Deployed and maintained a self-hosted home server on Raspberry Pi, gaining hands-on Linux and embedded deployment experience.",
-      "highlights": [
-        "Configured and maintained services on constrained embedded hardware",
-        "Managed system administration, networking, and uptime on an ARM-based single-board computer"
-      ],
-      "url": ""
-    },
-    {
       "name": "R-tree Spatial Indexing System",
       "startDate": "2021-01-01",
       "endDate": "2021-12-31",
@@ -248,7 +252,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-08-13",
+    "lastModified": "2026-11-26",
     "theme": "jsonresume-theme-onepage-plus"
   }
 }
